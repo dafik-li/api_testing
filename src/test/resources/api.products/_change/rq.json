@@ -1,0 +1,3 @@
+{
+  "discountPercentage": "${product.discountPercentage}"
+}
