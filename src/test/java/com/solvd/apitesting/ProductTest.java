@@ -1,5 +1,6 @@
 package com.solvd.apitesting;
 
+import com.solvd.apitesting.api.DeleteProductById;
 import com.solvd.apitesting.api.GetProductById;
 import com.solvd.apitesting.domain.Product;
 import com.zebrunner.carina.api.http.HttpResponseStatusType;
@@ -24,7 +25,12 @@ public class ProductTest {
 
     @Test
     public void verifyDeleteProductTest() {
+        Product product = new Product();
+        product.setId(1);
 
+        DeleteProductById api = new DeleteProductById(product.getId());
+        api.addProperty("product", product);
+        api.expectResponseStatus(HttpResponseStatusType.OK_200);
     }
 
     @Test
