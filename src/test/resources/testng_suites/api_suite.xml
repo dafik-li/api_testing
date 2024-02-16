@@ -2,5 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Auth Suite" verbose="1" parallel="tests" thread-count="3">
-
+    <test name="Product API Test">
+        <classes>
+            <class name="com.solvd.apitesting.ProductTest"/>
+        </classes>
+    </test>
 </suite>
