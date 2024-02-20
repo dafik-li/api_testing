@@ -1,5 +1,5 @@
 {
-  "id": "${product.id}",
+  "id": "predicate:idPredicate",
   "title": "type:String",
   "description": "type:String",
   "price": "type:Integer",

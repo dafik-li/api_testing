@@ -1,5 +1,5 @@
 {
-  "id": "${product.id}",
+  "id": "predicate:idPredicate",
   "title": "type:String",
   "description": "type:String",
   "price": "type:Integer",
@@ -11,5 +11,5 @@
   "thumbnail": "skip",
   "images": "skip",
   "isDeleted": true,
-  "deletedOn": "2024-02-04T18:50:16.574Z"
+  "deletedOn": "predicate:datePredicate"
 }

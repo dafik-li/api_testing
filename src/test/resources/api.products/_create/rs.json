@@ -1,13 +1,10 @@
 {
-  "id": "${product.id}",
-  "title": "type:String",
-  "description": "type:String",
-  "price": "type:Integer",
-  "discountPercentage": "type:Double",
-  "rating": "type:Double",
-  "stock": "type:Integer",
-  "brand": "type:String",
-  "category": "type:String",
-  "thumbnail": "skip",
-  "images": "skip"
+  "id": 101,
+  "title": "${product.title}",
+  "description": "${product.description}",
+  "price": "${product.price}",
+  "rating": "${product.rating}",
+  "stock": "${product.stock}",
+  "brand": "${product.brand}",
+  "category": "${product.category}"
 }
