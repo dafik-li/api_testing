@@ -1,13 +1,13 @@
 {
   "id": "predicate:idPredicate",
-  "title": "type:String",
-  "description": "type:String",
+  "title": "${product.title}",
+  "description": "${product.description}",
   "price": "type:Integer",
   "discountPercentage": "type:Double",
   "rating": "type:Double",
   "stock": "type:Integer",
-  "brand": "type:String",
-  "category": "type:String",
+  "brand": "${product.brand}",
+  "category": "${product.category}",
   "thumbnail": "skip",
   "images": "skip"
 }
